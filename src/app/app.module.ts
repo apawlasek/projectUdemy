@@ -27,9 +27,8 @@ import {RecipesService} from './recipes/recipes.service';
     RecipeItemComponent,
     DropdownDirective
   ],
-  imports: [
-    BrowserModule
-  ],  providers: [ShoppingListService, RecipesService],
+  imports: [BrowserModule],
+  providers: [ShoppingListService, RecipesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
